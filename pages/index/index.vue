@@ -26,11 +26,11 @@ export default {
 		return {
 			current: 0,
 			tabs: [
-				{
-					icon: '/static/all.png',
-					text: '全部',
-					tabId: 0,
-				},
+				// {
+				// 	icon: '/static/all.png',
+				// 	text: '全部',
+				// 	tabId: 0,
+				// },
 				{
 					icon: '/static/ele.png',
 					text: '饿了么',
@@ -41,21 +41,21 @@ export default {
 					text: '美团',
 					tabId: 2,
 				},
-				{
-					icon: '/static/11.png',
-					text: '双十一',
-					tabId: 5,
-				},
-				{
-					icon: '/static/jd.png',
-					text: '京东',
-					tabId: 3,
-				},
-				{
-					icon: '/static/vip.png',
-					text: 'VIP会员',
-					tabId: 4,
-				}
+				// {
+				// 	icon: '/static/11.png',
+				// 	text: '双十一',
+				// 	tabId: 5,
+				// },
+				// {
+				// 	icon: '/static/jd.png',
+				// 	text: '京东',
+				// 	tabId: 3,
+				// },
+				// {
+				// 	icon: '/static/vip.png',
+				// 	text: 'VIP会员',
+				// 	tabId: 4,
+				// }
 			],
 			couponList: [],
 			coupons: [
@@ -63,12 +63,12 @@ export default {
 					name: '饿了么红包',
 					icon: '/static/coupon/ele.png',
 					bannerPic: '/static/coupon/ele_banner.png',
-					url: 'https://s.click.ele.me/frZOjvu',
+					url: 'https://s.click.ele.me/uWnhGtu',
 					type: 1,
 					tabId: 1,
 					minapp: {
 						appid: 'wxece3a9a4c82f58c9',
-						path: 'pages/sharePid/web/index?scene=https://s.click.ele.me/wR9ecuu'
+						path: 'pages/sharePid/web/index?scene=https://s.click.ele.me/uWnhGtu'
 					}
 				},
 				{
@@ -79,46 +79,47 @@ export default {
 					type: 1,
 					tabId: 2,
 					minapp: {
-						appid: 'wxde8ac0a21135c07d',
-						path: '/index/pages/h5/h5?weburl=https%3A%2F%2Frunion.meituan.com%2Furl%3Fkey%3D591ec05930c57331c1212b936e6785c1%26url%3Dhttps%253A%252F%252Fi.meituan.com%252Fawp%252Fhfe%252Fblock%252Fa13b87919a9ace9cfab4%252F89400%252Findex.html%253Fappkey%253D591ec05930c57331c1212b936e6785c1%253A000001%26sid%3D000001&lch=cps:waimai:5:591ec05930c57331c1212b936e6785c1:000001&f_token=1&f_userId=1'
+						appid: 'wx2c348cf579062e56',
+						path: 'outer_packages/r2xinvite/coupon/coupon?inviteCode=NnOIp-QOs8SiYF1dcSlL5r8phPrCf6qkH7evMyjIoup2NXxNCLYcBbd3bqpv2X2IOn5qfM4c28lrF49RL3kN7qKldLOV5bXOLrtjmuKQXOw_WKb38eCOvByJfrhKaFDEhpJ4NUwgFIKgxUTvIqoimgbBWQ6Ul_shsw1YN_XlAWM'
 					}
 				},
-				{
-					name: '爱奇艺会员',
-					icon: '/static/coupon/vip.png',
-					bannerPic: '/static/coupon/vip_banner.png',
-					url:'https://p.pinduoduo.com/VJ7bHo5d',
-					type: 2,
-					tabId: 4
-				},
-				{
-					name: '三只松鼠大礼包',
-					icon: '/static/coupon/jd.png',
-					bannerPic: '/static/coupon/sanzhisongshu.png',
-					url:'https://u.jd.com/tFDejq',
-					type: 0,
-					tabId: 3
-				},
-				{
-					name: '饿了么果蔬',
-					icon: '/static/coupon/ele.png',
-					bannerPic: '/static/coupon/ele_guosu.png',
-					url:'https://s.click.ele.me/RpRFhvu',
-					type: 1,
-					tabId: 1,
-					minapp: {
-						appid: 'wxece3a9a4c82f58c9',
-						path: 'pages/sharePid/web/index?scene=https://s.click.ele.me/I4Yacuu'
-					}
-				},
-				{
-					name: '抽红包立减',
-					icon: '/static/11.png',
-					bannerPic: '/static/coupon/11.jpg',
-					url:'https://s.click.taobao.com/Gcs9vuu',
-					type: 2,
-					tabId: 5
-				},
+				
+				// {
+				// 	name: '爱奇艺会员',
+				// 	icon: '/static/coupon/vip.png',
+				// 	bannerPic: '/static/coupon/vip_banner.png',
+				// 	url:'https://p.pinduoduo.com/VJ7bHo5d',
+				// 	type: 2,
+				// 	tabId: 4
+				// },
+				// {
+				// 	name: '三只松鼠大礼包',
+				// 	icon: '/static/coupon/jd.png',
+				// 	bannerPic: '/static/coupon/sanzhisongshu.png',
+				// 	url:'https://u.jd.com/tFDejq',
+				// 	type: 0,
+				// 	tabId: 3
+				// },
+				// {
+				// 	name: '饿了么果蔬',
+				// 	icon: '/static/coupon/ele.png',
+				// 	bannerPic: '/static/coupon/ele_guosu.png',
+				// 	url:'https://s.click.ele.me/RpRFhvu',
+				// 	type: 1,
+				// 	tabId: 1,
+				// 	minapp: {
+				// 		appid: 'wxece3a9a4c82f58c9',
+				// 		path: 'pages/sharePid/web/index?scene=https://s.click.ele.me/I4Yacuu'
+				// 	}
+				// },
+				// {
+				// 	name: '抽红包立减',
+				// 	icon: '/static/11.png',
+				// 	bannerPic: '/static/coupon/11.jpg',
+				// 	url:'https://s.click.taobao.com/Gcs9vuu',
+				// 	type: 2,
+				// 	tabId: 5
+				// },
 			]
 		};
 	},
