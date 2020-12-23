@@ -68,7 +68,7 @@ export default {
 					tabId: 1,
 					minapp: {
 						appid: 'wxece3a9a4c82f58c9',
-						path: 'pages/sharePid/web/index?scene=https://s.click.ele.me/uWnhGtu'
+						path: '/ele-recommend-price/pages/guest/index?inviter=14273a0'
 					}
 				},
 				{
